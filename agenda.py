@@ -19,7 +19,7 @@ def pede_status():
      return(status)
 
 def mostra_dados(nome, telefone, cidade, estado, status):
-     print("Nome: %s - Telefone: %s - Cidade: %s - Estado: %s - Status: %s" % (nome, telefone, cidade, estado, status))
+          print("Nome: %s - Telefone: %s - Cidade: %s - Estado: %s - Status: %s" % (nome, telefone, cidade, estado, status))
 
 def pesquisa(nome):
      mnome = nome.lower()
